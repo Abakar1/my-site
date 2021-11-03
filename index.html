@@ -15,7 +15,7 @@
     <br>
     <br><hr>
     <nav id="top">
-        <li><a class="active"href="#">Home</a></li>
+        <li><a class="active" href="#">Home</a></li>
         <li><a href="#">ARDC</a></li>
         <li><a href="#">ASAF</a></li>
         <li><a href="#">CEC</a></li>
@@ -26,9 +26,90 @@
         <li><a href="#">Join</a></li>
         <input type="text"placeholder="Search....">
     </nav>
-     <h1>h1</h1>
-     <span>
-         welcome
-     </span>
+    <form action="action" action="index.php">
+	
+		<legend>Registeration</legend><br>
+	
+	<label for="fname">First Name</label><br>
+	<input type="text" id="fname"name="Name"><br>
+	<label for="lname">Last Name</label><br>
+	<input type="text"id="lname" name="name"><br>
+	<label for="ph">Phone</label><br>
+	<input type="text"id="ph" name="ph" required=""><br>
+	<label id="em">Email</label><br>
+	<input type="text"id="em" name="Email" required=""><br>
+	
+<select><br>
+	<option value="sudan">sudan</option>
+	<option value="tchad">tchad</option>
+	<option value="isreal">isreal</option>
+</select>
+<input type="submit" value="submit"><br>
+</form>
+
+<br>
+<br>
+<form action="/action-pag.php">
+	<label for="fcar"> Choose Cars</label>
+	<select id="car"name="car"multipl>
+		<option value="audio">audio</option>
+		<option value="mercedes">mercedes</option>
+		<option value="fiat">fiat</option>
+		<option value="toyota">toyota</option>
+		<option value="jeger">jeger</option>
+	</select>
+</form>
+<button type="button"onclick="alert('accept')">click me!</button>
+<button type="button" onclick="print()">print</button>
+
+
+
+<br>
+<br>
+<form action="/action-pag.php">
+	<input list="browsers" name="browsers">
+	<datalist id="browsers">
+		<option value="google"></option>
+		<option value="fire fex">fire fex</option>
+		<option value="opera">opera</option>
+		<option value="edge">Edge</option>
+		<option value="exprore11">Exprore11</option>
+	</datalist>
+</form>
+
+
+
+
+<br>
+<br>
+<form>
+	<label for="fname">Cars</label>
+	<select name="cars" id="cars">
+		<optgroup label="France">
+			<label for="fname">France</label>
+			<option value="jeger">jeger</option>
+			<option value="reunu">reunu</option>
+			<option value="fiat">fiat</option>
+		</optgroup>
+		<optgroup label="Germany">
+			<label for="fname">Germany</label>
+			<option value="merseds">merseds</option>
+			<option value="man">man</option>
+		</optgroup>
+	</select>
+	<input type="submit" name="submit">
+</form>
+
+
+
+
+
+
+
+
+<div>
+	<p>All&copyrigt2021<a href="Email.send">Send email</a></p>
+</div>
+
 </body>
 </html>
